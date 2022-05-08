@@ -2,6 +2,7 @@ package tests;
 
 import models.User;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Registration extends TestBase{
@@ -19,6 +20,8 @@ public class Registration extends TestBase{
         app.regist().fillRegistrationForm(user);
         app.regist().agreeCheckBox();
         app.regist().registerButton();
+
+        Assert.assertTrue(app.regist().registrationSuccess(user));
 
     }
 }

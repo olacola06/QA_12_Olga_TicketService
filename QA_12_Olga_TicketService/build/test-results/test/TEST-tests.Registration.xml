@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.Registration" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-07T17:18:26" hostname="ARTEMKA" time="1.116">
+<testsuite name="tests.Registration" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-08T15:24:47" hostname="ARTEMKA" time="2.078">
   <properties/>
-  <testcase name="registrationPos" classname="tests.Registration" time="1.116"/>
-  <system-out><![CDATA[Email: olam1106@gmail.com
+  <testcase name="registrationPos" classname="tests.Registration" time="2.078"/>
+  <system-out><![CDATA[Email: olam1487@gmail.com
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
