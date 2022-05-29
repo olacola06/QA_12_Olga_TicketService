@@ -30,6 +30,7 @@ public class ApplicationManager {
     }
 
     public void stop(){
+        //logger.info("All tesets passed");
         wd.quit();
     }
 
