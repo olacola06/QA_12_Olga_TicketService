@@ -23,4 +23,7 @@ public class HelperBase {
         click(By.cssSelector("span [href='/login']"));
 
     }
+    public void clickReturn(){
+        click(By.xpath("//*[text()=' Return']"));
+    }
 }

@@ -22,8 +22,10 @@ public class HelperRegist extends HelperBase{
         type(By.cssSelector("input[placeholder='Phone number*'"),user.getPhone());
     }
 
-    public void agreeCheckBox(){
-        click(By.cssSelector("label[for='c1'].label-for-checkbox"));
+    public void agreeCheckBox() {
+        if (!wd.findElement(By.cssSelector("label[for='c1'].label-for-checkbox")).isSelected()) {
+            click(By.cssSelector("label[for='c1'].label-for-checkbox"));
+        }
     }
     public void registerButton(){
         click(By.xpath("//button[text()=' Register']"));

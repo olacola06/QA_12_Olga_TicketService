@@ -49,8 +49,7 @@ public class ApplicationManager {
     }
 
     public void stop(){
-        //logger.info("All tests passed");
+        logger.info("All tests passed");
         wd.quit();
     }
-
 }

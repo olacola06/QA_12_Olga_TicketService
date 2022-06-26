@@ -1,0 +1,16 @@
+09:26:13 INFO  tests.TestBase - start test-->registrationPosDP
+09:26:13 INFO  tests.Registration - Test starts with details:-->TomTommytom@gmail.com
+09:26:17 INFO  tests.TestBase - End of the test-->registrationPosDP
+09:26:17 INFO  tests.TestBase - start test-->registrationPosDP
+09:26:17 INFO  tests.Registration - Test starts with details:-->TomTommytom@gmail.com
+09:26:21 INFO  tests.TestBase - End of the test-->registrationPosDP
+09:26:21 INFO  tests.TestBase - start test-->registrationPosDP
+09:26:21 INFO  tests.Registration - Test starts with details:-->TomTommytom@gmail.com
+09:26:25 INFO  tests.TestBase - End of the test-->registrationPosDP
+09:26:25 INFO  tests.TestBase - start test-->registrationPosDP
+09:26:25 INFO  tests.Registration - Test starts with details:-->TomTommytom@gmail.com
+09:26:29 INFO  tests.TestBase - End of the test-->registrationPosDP
+09:26:29 INFO  tests.TestBase - start test-->registrationPosLB
+09:26:29 INFO  tests.Registration - Test starts with details:-->OlaMarolam1589@gmail.com
+09:26:31 INFO  tests.Registration - Registration test passed Success
+09:26:31 INFO  tests.TestBase - End of the test-->registrationPosLB
