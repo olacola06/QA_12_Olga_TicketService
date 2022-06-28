@@ -19,6 +19,13 @@ public class HelperBase {
         element.clear();
         element.sendKeys(text);
     }
+    public void pause(int milles) {
+        try{
+            Thread.sleep(milles);
+        }catch (InterruptedException e){
+                throw new RuntimeException(e);
+            }
+    }
     public void clickLogin(){
         click(By.cssSelector("span [href='/login']"));
 
@@ -26,4 +33,9 @@ public class HelperBase {
     public void clickReturn(){
         click(By.xpath("//*[text()=' Return']"));
     }
+
+    public void refresh() {
+        wd.navigate().refresh();
+    }
+
 }
