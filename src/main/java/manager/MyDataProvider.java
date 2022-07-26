@@ -34,13 +34,13 @@ public class MyDataProvider{
     public Iterator<Object[]> registrationValidDataLom(){
         List<Object[]> list = new ArrayList<>();
         list.add(new Object[]{User.builder().name("Bob").surname("Bobby").email("bo@gmail.com").password("Aaaa$$$")
-                .confirmPassword("Aaaa$$$").phone("+11223344").build()});
-        list.add(new Object[]{User.builder().name("Bob1").surname("Bobby1").email("bo1@gmail.com").password("Aaaa$$$")
-                .confirmPassword("Aaaa$$$").phone("+11223355").build()});
-        list.add(new Object[]{User.builder().name("Bob2").surname("Bobby2").email("bo2@gmail.com").password("Aaaa$$$")
-                .confirmPassword("Aaaa$$$").phone("+11223366").build()});
-        list.add(new Object[]{User.builder().name("Bob3").surname("Bobby3").email("bo3@gmail.com").password("Aaaa$$$")
-                .confirmPassword("Aaaa$$$").phone("+11223377").build()});
+                .confirmPassword("Aaaa$$$").phone("+1122").build()});
+        list.add(new Object[]{User.builder().name("Bob1").surname("Bobby1").email("bo@gmail.com").password("Aaaa$$$")
+                .confirmPassword("Aaaa$$$").phone("+1122").build()});
+        list.add(new Object[]{User.builder().name("Bob2").surname("Bobby2").email("bo@gmail.com").password("Aaaa$$$")
+                .confirmPassword("Aaaa$$$").phone("+1122").build()});
+        list.add(new Object[]{User.builder().name("Bob3").surname("Bobby3").email("bo@gmail.com").password("Aaaa$$$")
+                .confirmPassword("Aaaa$$$").phone("+1122").build()});
 
         return list.iterator();
     }

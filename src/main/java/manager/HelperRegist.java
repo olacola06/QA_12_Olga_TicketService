@@ -3,6 +3,7 @@ package manager;
 import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 public class HelperRegist extends HelperBase{
 
@@ -30,9 +31,17 @@ public class HelperRegist extends HelperBase{
     public void registerButton(){
         click(By.xpath("//button[text()=' Register']"));
     }
+    public void returnToRegistrationBtn(){
+        wd.findElement(By.xpath("//*[text()=' Return to registration']")).click();
+    }
 
     public boolean registrationSuccess(User user){
         String message = wd.findElement(By.xpath("//p[@class = 'fl-login f35 text-center']")).getText();
         return (message.contains("was successful") & message.contains(user.getEmail()));
+    }
+    public boolean registrationFail(){
+        String message = wd.findElement(By.xpath("//p[@class = 'fl-login f35 text-center']")).getText();
+        System.out.println(message.toString());
+        return (message.contains("Something went wrong!"));
     }
 }

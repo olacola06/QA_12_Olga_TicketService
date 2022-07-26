@@ -19,18 +19,49 @@ public class Registration extends TestBase{
         app.regist().clickLogin();
         app.regist().clickRegister();
     }
-    @Test(dataProvider = "registrationValidDataLom",dataProviderClass = MyDataProvider.class)
+    @Test
+    public void registrationPositive(){
+        //String email = "olam"+i+"@gmail.com";//Fail with first UpperCase letter
+       User user = User.builder().name("Ola").surname("Mar").email("olamm@gmail.com").password("Bo12345$").
+              confirmPassword("Bo12345$").phone("+123456789").build();
+
+        logger.info("Test starts with details:-->"+user.getName()+", "+user.getSurname()+", "+user.getEmail());
+        app.regist().fillRegistrationForm(user);
+        app.regist().agreeCheckBox();
+        app.regist().pause(1000);
+        app.regist().registerButton();
+
+        Assert.assertTrue(app.regist().registrationSuccess(user));
+        logger.info("Registration test passed Success");
+
+    }
+    @Test
+    public void registrationNegExistUser(){
+        User user = User.builder().name("Ola").surname("Mar").email("olamm@gmail.com").password("Bo12345$").
+                confirmPassword("Bo12345$").phone("+123456789").build();
+
+        logger.info("Test starts with details:-->"+user.getName()+", "+user.getSurname()+", "+user.getEmail());
+        app.regist().fillRegistrationForm(user);
+        app.regist().agreeCheckBox();
+        app.regist().pause(1000);
+        app.regist().registerButton();
+
+        Assert.assertTrue(app.regist().registrationFail());
+        app.regist().returnToRegistrationBtn();
+
+        logger.info("Registration test with wrong data failed");
+
+    }
+    @Test(enabled = false, dataProvider = "registrationValidDataLom",dataProviderClass = MyDataProvider.class)
     public void registrationPosLB(User user) {
         int i = (int) (System.currentTimeMillis()/1000)%3600;
         user.setEmail(i+user.getEmail());
-        user.setPhone(user.getPhone()+i/100);
+        user.setPhone(user.getPhone()+i);
         user.setPassword(user.getPassword()+i);
         user.setConfirmPassword(user.getConfirmPassword()+i);
-//        String email = "olam"+i+"@gmail.com";//Fail with first UpperCase letter
-//
-//        User user = User.builder().name("Ola").surname("Mar").email(email).password("Bo12345$").
-//                confirmPassword("Bo12345$").phone("+123456789").build();
-        logger.info("Test starts with details:-->"+user.getName()+user.getSurname()+user.getEmail());
+
+        logger.info("Test starts with details:-->"+user.getName()+" ,"+user.getSurname()+" ,"+user.getEmail()
+        +" ,"+user.getPassword()+" ,"+user.getConfirmPassword()+" ,"+user.getPhone());
         //app.regist().clickLogin();
         //app.regist().clickRegister();
         app.regist().fillRegistrationForm(user);
@@ -42,7 +73,7 @@ public class Registration extends TestBase{
         logger.info("Registration test passed Success");
 
     }
-    @Test(dataProvider = "registrationValidData",dataProviderClass = MyDataProvider.class)
+    @Test(enabled = false,dataProvider = "registrationValidData",dataProviderClass = MyDataProvider.class)
     public void registrationPosDP(User user){
         int i = (int) (System.currentTimeMillis()/1000)%3600;
         user.setEmail(i+user.getEmail());
@@ -58,9 +89,9 @@ public class Registration extends TestBase{
         logger.info("Registration test passed Success");
 
     }
-    @AfterMethod
-    public void postCondition(){
-        app.regist().clickReturn();
-        app.regist().refresh();
-    }
+//    @AfterMethod(dependsOnMethods ={registrationPositive()})
+//    public void postCondition(){
+//        app.regist().clickReturn();
+//        app.regist().refresh();
+//    }
 }
