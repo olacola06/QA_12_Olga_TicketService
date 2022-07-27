@@ -1,0 +1,16 @@
+13:05:27  tests.TestBase - start test-->registrationNegEmailEmpty
+13:05:27  manager.MyListener - Start searching for element with locator-->By.cssSelector: span [href='/login']
+13:05:27  manager.MyListener - Element with locator-->By.cssSelector: span [href='/login'] was found
+13:05:27  manager.MyListener - Start searching for element with locator-->By.xpath: //button[text()=' Register']
+13:05:27  manager.MyListener - Element with locator-->By.xpath: //button[text()=' Register'] was found
+13:05:27  tests.Registration - Test starts with details:-->Ola, Mar, null
+13:05:27  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Name*']
+13:05:28  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Name*'] was found
+13:05:28  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Surname*'
+13:05:28  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Surname*' was found
+13:05:29  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Email*'
+13:05:29  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Email*' was found
+13:05:29  manager.MyListener - Something went wrong-->https://ticket-service-69443.firebaseapp.com/registration
+13:05:29  manager.MyListener - Keys to send should be a not null CharSequence
+13:05:29  manager.MyListener - java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+13:05:29  tests.TestBase - End of the test-->registrationNegEmailEmpty

@@ -1,0 +1,75 @@
+10:39:21  tests.TestBase - start test-->registrationNegExistUser
+10:39:21  manager.MyListener - Start searching for element with locator-->By.cssSelector: span [href='/login']
+10:39:21  manager.MyListener - Element with locator-->By.cssSelector: span [href='/login'] was found
+10:39:21  manager.MyListener - Start searching for element with locator-->By.xpath: //button[text()=' Register']
+10:39:21  manager.MyListener - Element with locator-->By.xpath: //button[text()=' Register'] was found
+10:39:21  tests.Registration - Test starts with details:-->Ola, Mar, olamm@gmail.com
+10:39:21  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Name*']
+10:39:21  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Name*'] was found
+10:39:22  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Surname*'
+10:39:22  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Surname*' was found
+10:39:22  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Email*'
+10:39:22  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Email*' was found
+10:39:23  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Password*'
+10:39:23  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Password*' was found
+10:39:23  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Confirm password*'
+10:39:23  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Confirm password*' was found
+10:39:23  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Phone number*'
+10:39:24  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Phone number*' was found
+10:39:24  manager.MyListener - Start searching for element with locator-->By.cssSelector: label[for='c1'].label-for-checkbox
+10:39:24  manager.MyListener - Element with locator-->By.cssSelector: label[for='c1'].label-for-checkbox was found
+10:39:24  manager.MyListener - Start searching for element with locator-->By.cssSelector: label[for='c1'].label-for-checkbox
+10:39:24  manager.MyListener - Element with locator-->By.cssSelector: label[for='c1'].label-for-checkbox was found
+10:39:25  manager.MyListener - Start searching for element with locator-->By.xpath: //button[text()=' Register']
+10:39:25  manager.MyListener - Element with locator-->By.xpath: //button[text()=' Register'] was found
+10:39:25  manager.MyListener - Start searching for element with locator-->By.xpath: //p[@class = 'fl-login f35 text-center']
+10:39:26  manager.MyListener - Element with locator-->By.xpath: //p[@class = 'fl-login f35 text-center'] was found
+10:39:26  manager.MyListener - Start searching for element with locator-->By.xpath: //*[text()=' Return to registration']
+10:39:26  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Return to registration'] was found
+10:39:26  tests.Registration - Registration test with wrong data failed
+10:39:26  tests.TestBase - End of the test-->registrationNegExistUser
+10:39:26  tests.TestBase - start test-->registrationPositive
+10:39:26  manager.MyListener - Start searching for element with locator-->By.cssSelector: span [href='/login']
+10:39:26  manager.MyListener - Element with locator-->By.cssSelector: span [href='/login'] was found
+10:39:26  manager.MyListener - Start searching for element with locator-->By.xpath: //button[text()=' Register']
+10:39:26  manager.MyListener - Element with locator-->By.xpath: //button[text()=' Register'] was found
+10:39:27  tests.Registration - Test starts with details:-->Ola, Mar, olamm2351@gmail.com
+10:39:27  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Name*']
+10:39:27  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Name*'] was found
+10:39:27  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Surname*'
+10:39:27  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Surname*' was found
+10:39:27  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Email*'
+10:39:27  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Email*' was found
+10:39:28  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Password*'
+10:39:28  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Password*' was found
+10:39:28  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Confirm password*'
+10:39:28  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Confirm password*' was found
+10:39:29  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Phone number*'
+10:39:29  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Phone number*' was found
+10:39:29  manager.MyListener - Start searching for element with locator-->By.cssSelector: label[for='c1'].label-for-checkbox
+10:39:29  manager.MyListener - Element with locator-->By.cssSelector: label[for='c1'].label-for-checkbox was found
+10:39:29  manager.MyListener - Start searching for element with locator-->By.cssSelector: label[for='c1'].label-for-checkbox
+10:39:29  manager.MyListener - Element with locator-->By.cssSelector: label[for='c1'].label-for-checkbox was found
+10:39:30  manager.MyListener - Start searching for element with locator-->By.xpath: //button[text()=' Register']
+10:39:30  manager.MyListener - Element with locator-->By.xpath: //button[text()=' Register'] was found
+10:39:31  manager.MyListener - Start searching for element with locator-->By.xpath: //p[@class = 'fl-login f35 text-center']
+10:39:34  manager.MyListener - Something went wrong-->https://ticket-service-69443.firebaseapp.com/registration
+10:39:34  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class = 'fl-login f35 text-center']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64216}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0eb92f15d04300e7042d717b80a2bfc1
+*** Element info: {Using=xpath, value=//p[@class = 'fl-login f35 text-center']}
+10:39:34  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class = 'fl-login f35 text-center']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64216}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0eb92f15d04300e7042d717b80a2bfc1
+*** Element info: {Using=xpath, value=//p[@class = 'fl-login f35 text-center']}
+10:39:35  tests.TestBase - End of the test-->registrationPositive

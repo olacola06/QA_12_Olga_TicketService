@@ -1,0 +1,29 @@
+13:09:29  tests.TestBase - start test-->registrationNegEmailEmpty
+13:09:29  manager.MyListener - Start searching for element with locator-->By.cssSelector: span [href='/login']
+13:09:29  manager.MyListener - Element with locator-->By.cssSelector: span [href='/login'] was found
+13:09:29  manager.MyListener - Start searching for element with locator-->By.xpath: //button[text()=' Register']
+13:09:29  manager.MyListener - Element with locator-->By.xpath: //button[text()=' Register'] was found
+13:09:30  tests.Registration - Test starts with details:-->Ola, Mar, 
+13:09:30  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Name*']
+13:09:30  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Name*'] was found
+13:09:30  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Surname*'
+13:09:30  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Surname*' was found
+13:09:31  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Email*'
+13:09:31  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Email*' was found
+13:09:31  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Password*'
+13:09:31  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Password*' was found
+13:09:32  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Confirm password*'
+13:09:32  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Confirm password*' was found
+13:09:32  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Phone number*'
+13:09:32  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Phone number*' was found
+13:09:33  manager.MyListener - Start searching for element with locator-->By.cssSelector: label[for='c1'].label-for-checkbox
+13:09:33  manager.MyListener - Element with locator-->By.cssSelector: label[for='c1'].label-for-checkbox was found
+13:09:33  manager.MyListener - Start searching for element with locator-->By.cssSelector: label[for='c1'].label-for-checkbox
+13:09:33  manager.MyListener - Element with locator-->By.cssSelector: label[for='c1'].label-for-checkbox was found
+13:09:33  manager.MyListener - Start searching for element with locator-->By.xpath: //button[text()=' Register']
+13:09:33  manager.MyListener - Element with locator-->By.xpath: //button[text()=' Register'] was found
+13:09:33  manager.MyListener - Start searching for element with locator-->By.xpath: //button[text()=' Register']
+13:09:33  manager.MyListener - Element with locator-->By.xpath: //button[text()=' Register'] was found
+13:09:34  manager.MyListener - Start searching for element with locator-->By.cssSelector: input[placeholder='Email*'
+13:09:34  manager.MyListener - Element with locator-->By.cssSelector: input[placeholder='Email*' was found
+13:09:34  tests.TestBase - End of the test-->registrationNegEmailEmpty
