@@ -17,11 +17,8 @@ public class EventTests extends TestBase{
 
     @Test
     public void chooseEventPos(){
-        app.event().chooseEvent();
-
-
-
-
+        int rowNum = 5, seatNum =12;
+        app.event().chooseEvent(rowNum, seatNum);
 
     }
 }
