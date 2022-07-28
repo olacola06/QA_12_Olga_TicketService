@@ -1,22 +1,27 @@
 package tests;
 
 import models.User;
-import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Login extends TestBase {
+public class EventTests extends TestBase{
 
     @BeforeClass
     public void preCondition(){
         app.login().clickLogin();
-    }
-
-    @Test
-    public void loginSuccess(){
         User user = User.builder().name("Ola").surname("Mar").email("olamm@gmail.com").password("Bo12345$").
                 confirmPassword("Bo12345$").phone("+123456789").build();
         app.login().toLogin(user);
-        app.login().loginSuccess(user);
+        app.event().clickReturnToMain();
+    }
+
+    @Test
+    public void chooseEventPos(){
+        app.event().chooseEvent();
+
+
+
+
+
     }
 }

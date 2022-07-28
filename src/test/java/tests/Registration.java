@@ -94,7 +94,6 @@ public class Registration extends TestBase{
         //app.regist().clickLogin();
         //app.regist().clickRegister();
         app.regist().fillRegistrationForm(user);
-        app.regist().pause(3000);
         app.regist().agreeCheckBox();
         app.regist().registerButton();
 
@@ -112,7 +111,6 @@ public class Registration extends TestBase{
         logger.info("Test starts with details:-->"+user.getName()+", "+user.getSurname()+", "+user.getEmail());
         app.regist().fillRegistrationForm(user);
         app.regist().agreeCheckBox();
-        app.regist().pause(3000);
         app.regist().registerButton();
 
         Assert.assertTrue(app.regist().registrationSuccess(user));

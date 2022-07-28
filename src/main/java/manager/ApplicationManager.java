@@ -21,6 +21,7 @@ public class ApplicationManager {
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
     HelperRegist regist;
     HelperLogin login;
+    HelperEvent event;
 
     public void start(){
         if(browser.equals(BrowserType.CHROME)){
@@ -39,6 +40,7 @@ public class ApplicationManager {
 
         regist = new HelperRegist(wd);
         login = new HelperLogin(wd);
+        event = new HelperEvent(wd);
 
     }
 
@@ -48,6 +50,9 @@ public class ApplicationManager {
 
     public HelperLogin login() {
         return login;
+    }
+    public HelperEvent event(){
+        return event;
     }
 
     public void stop(){
