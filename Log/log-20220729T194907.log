@@ -1,0 +1,28 @@
+19:49:10  manager.MyListener - Start searching for element with locator-->By.cssSelector: span [href='/login']
+19:49:10  manager.MyListener - Element with locator-->By.cssSelector: span [href='/login'] was found
+19:49:10  manager.MyListener - Start searching for element with locator-->By.cssSelector: div input[aria-label='Email']
+19:49:10  manager.MyListener - Element with locator-->By.cssSelector: div input[aria-label='Email'] was found
+19:49:10  manager.MyListener - Start searching for element with locator-->By.cssSelector: div [aria-label='Password']
+19:49:10  manager.MyListener - Element with locator-->By.cssSelector: div [aria-label='Password'] was found
+19:49:10  manager.MyListener - Start searching for element with locator-->By.xpath: //*[text()=' Login']
+19:49:10  manager.MyListener - Element with locator-->By.xpath: //*[text()=' Login'] was found
+19:49:10  manager.MyListener - Start searching for element with locator-->By.xpath: //*[text()=' Return to main']
+19:49:13  manager.MyListener - Something went wrong-->https://ticket-service-69443.firebaseapp.com/login
+19:49:13  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()=' Return to main']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63104}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3824f6cf789f3c70e9103b11a15006d5
+*** Element info: {Using=xpath, value=//*[text()=' Return to main']}
+19:49:13  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()=' Return to main']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63104}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3824f6cf789f3c70e9103b11a15006d5
+*** Element info: {Using=xpath, value=//*[text()=' Return to main']}
