@@ -40,7 +40,7 @@ public class Registration extends TestBase{
         Assert.assertTrue(app.regist().registrationSuccess(user));
         logger.info("Registration test passed Success");
         app.regist().clickReturn();
-        app.regist().refresh();
+        //app.regist().refresh();
 
     }
     @Test
@@ -84,6 +84,7 @@ public class Registration extends TestBase{
     }
     @Test(enabled = false, dataProvider = "registrationValidDataLom",dataProviderClass = MyDataProvider.class)
     public void registrationPosLB(User user) {
+        int i = (int) (System.currentTimeMillis()/1000)%3600;
         user.setEmail(i+user.getEmail());
         user.setPhone(user.getPhone()+i);
         user.setPassword(user.getPassword()+i);
@@ -105,8 +106,6 @@ public class Registration extends TestBase{
     }
     @Test(enabled = false,dataProvider = "registrationValidData",dataProviderClass = MyDataProvider.class)
     public void registrationPosDP(User user){
-        user.setEmail(i+user.getEmail());
-        user.setPhone(user.getPhone()+i/100);
 
         logger.info("Test starts with details:-->"+user.getName()+", "+user.getSurname()+", "+user.getEmail());
         app.regist().fillRegistrationForm(user);

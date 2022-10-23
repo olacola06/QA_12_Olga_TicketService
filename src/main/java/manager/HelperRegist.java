@@ -27,11 +27,13 @@ public class HelperRegist extends HelperBase{
     }
 
     public void agreeCheckBox() {
+        pause(3000);
         if (!wd.findElement(By.cssSelector("label[for='c1'].label-for-checkbox")).isSelected()) {
             click(By.cssSelector("label[for='c1'].label-for-checkbox"));
         }
     }
     public void registerButton(){
+        pause(3000);
         new WebDriverWait(wd,5).until(ExpectedConditions
                 .elementToBeClickable(By.xpath("//button[text()=' Register']")));
         click(By.xpath("//button[text()=' Register']"));
@@ -60,7 +62,7 @@ public class HelperRegist extends HelperBase{
         String message = wd.findElement(By.cssSelector("input[placeholder='Email*'"))
                 .getAttribute("validationMessage");
         //Assert.assertEquals(message,"Please fill out this field.");
-        Assert.assertEquals(message,"Заполните то поле.");
+        Assert.assertEquals(message,"Заполните это поле.");
 
     }
     public void ifAlertPresent() {
