@@ -40,7 +40,7 @@ public class Registration extends TestBase{
         Assert.assertTrue(app.regist().registrationSuccess(user));
         logger.info("Registration test passed Success");
         app.regist().clickReturn();
-        //app.regist().refresh();
+        app.regist().refresh();
 
     }
     @Test

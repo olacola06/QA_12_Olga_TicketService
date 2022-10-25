@@ -61,8 +61,8 @@ public class HelperRegist extends HelperBase{
     public void registrationEmptyEmailAssert(){
         String message = wd.findElement(By.cssSelector("input[placeholder='Email*'"))
                 .getAttribute("validationMessage");
-        //Assert.assertEquals(message,"Please fill out this field.");
-        Assert.assertEquals(message,"Заполните это поле.");
+        System.out.println(message.toString());
+        Assert.assertEquals(message,"Please fill out this field.");
 
     }
     public void ifAlertPresent() {

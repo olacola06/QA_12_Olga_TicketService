@@ -3,6 +3,7 @@ package manager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.BrowserType;
@@ -25,7 +26,9 @@ public class ApplicationManager {
 
     public void start(){
         if(browser.equals(BrowserType.CHROME)){
-            wd = new EventFiringWebDriver(new ChromeDriver());
+            ChromeOptions options =new ChromeOptions();
+            options.addArguments("--lang=en");
+            wd = new EventFiringWebDriver(new ChromeDriver(options));
         }
         else if (browser.equals(BrowserType.FIREFOX)){
             wd = new EventFiringWebDriver(new FirefoxDriver());
