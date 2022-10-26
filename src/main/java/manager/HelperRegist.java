@@ -4,6 +4,7 @@ import models.User;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -33,7 +34,6 @@ public class HelperRegist extends HelperBase{
         }
     }
     public void registerButton(){
-        pause(3000);
         new WebDriverWait(wd,5).until(ExpectedConditions
                 .elementToBeClickable(By.xpath("//button[text()=' Register']")));
         click(By.xpath("//button[text()=' Register']"));
@@ -57,10 +57,12 @@ public class HelperRegist extends HelperBase{
             System.out.print("Please include an '@' in the email address");
         }
         return bool;
+
     }
     public void registrationEmptyEmailAssert(){
         String message = wd.findElement(By.cssSelector("input[placeholder='Email*'"))
-                .getAttribute("validationMessage");
+                .getAttribute("validationMessage");//Attribute validationMessage will return the message,
+        // that will be showing if validation fails
         System.out.println(message.toString());
         Assert.assertEquals(message,"Please fill out this field.");
 

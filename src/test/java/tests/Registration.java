@@ -82,16 +82,16 @@ public class Registration extends TestBase{
 
         logger.info("Registration test with wrong data finished");
     }
-    @Test(enabled = false, dataProvider = "registrationValidDataLom",dataProviderClass = MyDataProvider.class)
+    @Test(enabled = true, dataProvider = "registrationValidDataLom",dataProviderClass = MyDataProvider.class)
     public void registrationPosLB(User user) {
-        int i = (int) (System.currentTimeMillis()/1000)%3600;
-        user.setEmail(i+user.getEmail());
-        user.setPhone(user.getPhone()+i);
-        user.setPassword(user.getPassword()+i);
-        user.setConfirmPassword(user.getConfirmPassword()+i);
+        int i = (int) (System.currentTimeMillis() / 1000) % 3600;
+        user.setEmail(i + user.getEmail());
+        user.setPhone(user.getPhone() + i);
+        user.setPassword(user.getPassword() + i);
+        user.setConfirmPassword(user.getConfirmPassword() + i);
 
-        logger.info("Test starts with details:-->"+user.getName()+" ,"+user.getSurname()+" ,"+user.getEmail()
-        +" ,"+user.getPassword()+" ,"+user.getConfirmPassword()+" ,"+user.getPhone());
+        logger.info("Test starts with details:-->" + user.getName() + " ," + user.getSurname() + " ," + user.getEmail()
+                + " ," + user.getPassword() + " ," + user.getConfirmPassword() + " ," + user.getPhone());
         //app.regist().clickLogin();
         //app.regist().clickRegister();
         app.regist().fillRegistrationForm(user);
@@ -102,7 +102,6 @@ public class Registration extends TestBase{
         logger.info("Registration test passed Success");
         app.regist().clickReturn();
         app.regist().refresh();
-
     }
     @Test(enabled = false,dataProvider = "registrationValidData",dataProviderClass = MyDataProvider.class)
     public void registrationPosDP(User user){
