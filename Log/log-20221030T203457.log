@@ -1,0 +1,4 @@
+20:35:00  tests.TestBase - start test-->selectEventsDates
+20:35:01  manager.MyListener - Start searching for element with locator-->By.xpath: //a[.='EVENTS']
+20:35:02  manager.MyListener - Element with locator-->By.xpath: //a[.='EVENTS'] was found
+20:35:02  tests.TestBase - End of the test-->selectEventsDates

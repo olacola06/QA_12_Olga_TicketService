@@ -1,0 +1,12 @@
+20:37:29  tests.TestBase - start test-->selectEventsDates
+20:37:29  manager.MyListener - Start searching for element with locator-->By.xpath: //a[.='EVENTS']
+20:37:30  manager.MyListener - Element with locator-->By.xpath: //a[.='EVENTS'] was found
+20:37:30  manager.MyListener - Start searching for element with locator-->By.cssSelector: span[aria-label='Next Month']
+20:37:30  manager.MyListener - Element with locator-->By.cssSelector: span[aria-label='Next Month'] was found
+20:37:30  manager.MyListener - Start searching for element with locator-->By.cssSelector: span[aria-label='Next Month']
+20:37:30  manager.MyListener - Element with locator-->By.cssSelector: span[aria-label='Next Month'] was found
+20:37:30  manager.MyListener - Start searching for element with locator-->By.cssSelector: span[aria-label='Next Month']
+20:37:30  manager.MyListener - Element with locator-->By.cssSelector: span[aria-label='Next Month'] was found
+20:37:30  manager.MyListener - Start searching for element with locator-->By.cssSelector: span[aria-label='Next Month']
+20:37:30  manager.MyListener - Element with locator-->By.cssSelector: span[aria-label='Next Month'] was found
+20:37:30  tests.TestBase - End of the test-->selectEventsDates

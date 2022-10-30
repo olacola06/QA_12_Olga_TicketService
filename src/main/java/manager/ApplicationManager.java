@@ -23,6 +23,7 @@ public class ApplicationManager {
     HelperRegist regist;
     HelperLogin login;
     HelperEvent event;
+    HelperCalendar calendar;
 
     public void start(){
         if(browser.equals(BrowserType.CHROME)){
@@ -44,6 +45,7 @@ public class ApplicationManager {
         regist = new HelperRegist(wd);
         login = new HelperLogin(wd);
         event = new HelperEvent(wd);
+        calendar = new HelperCalendar(wd);
 
     }
 
@@ -56,6 +58,9 @@ public class ApplicationManager {
     }
     public HelperEvent event(){
         return event;
+    }
+    public HelperCalendar calendar(){
+        return calendar;
     }
 
     public void stop(){
