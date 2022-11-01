@@ -1,0 +1,28 @@
+19:43:14  tests.TestBase - start test-->selectEventsDates
+19:43:14  manager.MyListener - Start searching for element with locator-->By.xpath: //a[.='EVENTS']
+19:43:15  manager.MyListener - Element with locator-->By.xpath: //a[.='EVENTS'] was found
+19:43:15  manager.MyListener - Start searching for element with locator-->By.cssSelector: span[aria-label='Next Month']
+19:43:15  manager.MyListener - Element with locator-->By.cssSelector: span[aria-label='Next Month'] was found
+19:43:15  manager.MyListener - Start searching for element with locator-->By.cssSelector: span[aria-label='Next Month']
+19:43:15  manager.MyListener - Element with locator-->By.cssSelector: span[aria-label='Next Month'] was found
+19:43:15  manager.MyListener - Start searching for element with locator-->By.cssSelector: span[aria-label='Next Month']
+19:43:15  manager.MyListener - Element with locator-->By.cssSelector: span[aria-label='Next Month'] was found
+19:43:15  manager.MyListener - Start searching for element with locator-->By.cssSelector: span[aria-label='Next Month']
+19:43:15  manager.MyListener - Element with locator-->By.cssSelector: span[aria-label='Next Month'] was found
+19:43:15  manager.MyListener - Start searching for element with locator-->By.cssSelector: span[aria-label='Next Month']
+19:43:15  manager.MyListener - Element with locator-->By.cssSelector: span[aria-label='Next Month'] was found
+19:43:15  manager.MyListener - Start searching for element with locator-->By.cssSelector: span[aria-label='Next Month']
+19:43:15  manager.MyListener - Element with locator-->By.cssSelector: span[aria-label='Next Month'] was found
+19:43:15  manager.MyListener - Start searching for element with locator-->By.cssSelector: span[aria-label='Next Month']
+19:43:15  manager.MyListener - Element with locator-->By.cssSelector: span[aria-label='Next Month'] was found
+19:43:15  manager.MyListener - Start searching for element with locator-->By.xpath: //div[.='10']
+19:43:15  manager.MyListener - Element with locator-->By.xpath: //div[.='10'] was found
+19:43:15  manager.MyListener - Start searching for element with locator-->By.cssSelector: div[class='f35 note']
+19:43:16  manager.MyListener - Element with locator-->By.cssSelector: div[class='f35 note'] was found
+19:43:16  manager.MyListener - Start searching for element with locator-->By.cssSelector: div[class='f35 note']
+19:43:16  manager.MyListener - Element with locator-->By.cssSelector: div[class='f35 note'] was found
+19:43:16  manager.MyListener - Start searching for element with locator-->By.cssSelector: div[class='f35 note']
+19:43:16  manager.MyListener - Element with locator-->By.cssSelector: div[class='f35 note'] was found
+19:43:16  manager.MyListener - Start searching for element with locator-->By.cssSelector: div[class='f35 note']
+19:43:16  manager.MyListener - Element with locator-->By.cssSelector: div[class='f35 note'] was found
+19:43:16  tests.TestBase - End of the test-->selectEventsDates
