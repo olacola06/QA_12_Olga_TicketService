@@ -13,6 +13,8 @@ public class CalendarTests extends TestBase{
     }
     @Test
     public void selectEventLD(){
-        app.calendar().selectEventDateLD("01/11/2022","10/05/2023");
+        app.calendar().selectEventDateLD("28/02/2023");
+
+        Assert.assertTrue(app.calendar().getAvailableEventsLD("28/02/2023"));
     }
 }
